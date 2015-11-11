@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="edit_img_bg_foot">#333333</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0078fe</color>
+    <color name="white">#ffffff</color>
+    <color name="header_bg">#d7000f</color>
+    <color name="red">#ff0000</color>
+    <color name="gray">#D3D3D3</color>
+    <color name="red_header">#CB000D</color>
+    <color name="transparent">#00000000</color>
+    <!-- OCR -->
+    <color name="ocr_txt_no">#999999</color>
+    <color name="ocr_txt_yes">#ffffff</color>
+    <color name="ocr_title">#999999</color>
+    <!-- Setting -->
+    <color name="set_bg_groud_line">#333333</color>
+    <color name="set_bg_groud">#f7cccf</color>
+    <color name="set_bg_version">#f0f0f0</color>
+    <color name="set_text">#000000</color>
+    <color name="set_text_ver">#999999</color>
+
+    <!-- Preview -->
+    <color name="pre_tag_bg">#ebdddd</color>
+    <color name="pre_line">#ababab</color>
+    <color name="pre_title">#999999</color>
+    <color name="pre_content">#333333</color>
+    <color name="pre_content1">#007efd</color>
+    <color name="pre_bg">#f1f1f0</color>
+    <color name="black_transparent">#66000000</color>
+
+    <!-- Alert -->
+    <color name="alert_button_on">#d7000f</color>
+    <color name="notice_readed">#ede2e7</color>
+    <color name="receive_readed">#ede2e7</color>
+    <color name="receive_no_readed">#00ffffff</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <!-- edit screen-->
+    <color name="edit_text_default">#7a7a7a</color>
+    <!--menu equip-->
+    <color name="menu_equip_bg">#800000</color>
+
+</resources>

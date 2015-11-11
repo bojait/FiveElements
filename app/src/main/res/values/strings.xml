@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">five elements</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="alert_tag_ok">OK</string>
+    <string name="alert_tag_close">Đóng</string>
+    <string name="alert_tag_cancel">cancel</string>
+    <string name="main_sum_propertis">Thuộc tính</string>
+    <string name="header_txt_back">Trở lại</string>
+    <string name="header_txt_save">Save</string>
+
+    <string name="header_title_main">Trang bị ngũ hành VLTK</string>
+    <string name="header_title_edit">Thay đổi thuộc tính trang bị</string>
+    <string name="header_title_detail">Thông tin trang bị</string>
+    <!--edit screen -->
+
+    <string name="edit_equip_kind">Trang bị : </string>
+    <string name="edit_equip_name">Tên trang bị : </string>
+    <string name="edit_equip_name_default">...</string>
+    <string name="edit_element_kind">Thuộc tính ngũ hành : </string>
+    <string name="edit_equip_type">Loại trang bị : </string>
+    <string name="edit_equip_type_default">Chọn trang bị </string>
+    <string name="edit_properties_default">Chọn thuộc tính ...</string>
+</resources>

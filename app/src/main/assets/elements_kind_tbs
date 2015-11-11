@@ -1,0 +1,6 @@
+[{"id":-1,"name_en":"none","name_vn":"none","creation_id":-1,"destruction_id":-1,"color":"#ffffff"},
+{"id":0,"name_en":"metal","name_vn":"hệ kim","creation_id":1,"destruction_id":3,"color":"#f7e54e"},
+{"id":1,"name_en":"water","name_vn":"hệ thuỷ","creation_id":2,"destruction_id":4,"color":"#4e82f7"},
+{"id":2,"name_en":"wood","name_vn":"hệ mộc","creation_id":3,"destruction_id":0,"color":"#6ef74e"},
+{"id":3,"name_en":"fire","name_vn":"hệ hoả","creation_id":4,"destruction_id":1,"color":"#ff3a3a"},
+{"id":4,"name_en":"earth","name_vn":"hệ thổ","creation_id":0,"destruction_id":2,"color":"#7a7a7a"}]

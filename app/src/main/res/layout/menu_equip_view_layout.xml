@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="@dimen/menu_equip_width"
+        android:layout_height="@dimen/menu_equip_height"
+        android:id="@+id/gr_menu_down"
+        android:visibility="visible"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="@dimen/menu_equip_margin">
+
+        <FrameLayout
+            android:layout_width="@dimen/menu_equip_btn_width"
+            android:layout_height="@dimen/menu_equip_btn_height"
+            android:layout_gravity="left|top"
+            android:id="@+id/fram_view_0"
+            android:layout_marginTop="@dimen/menu_equip_btn_size">
+
+            <ImageView
+                android:layout_width="@dimen/menu_equip_btn_size"
+                android:layout_height="@dimen/menu_equip_btn_size"
+                android:src="@drawable/btn_menu_view"
+                android:layout_gravity="right|top"
+                android:id="@+id/img_view_0"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="View"
+                android:layout_gravity="center|bottom|left"
+                android:background="@drawable/text_bg"
+              android:textSize="@dimen/menu_equip_font_size"
+                android:paddingLeft="5dp"
+                android:paddingTop="3dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="3dp" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="@dimen/menu_equip_btn_width"
+            android:layout_height="@dimen/menu_equip_btn_height"
+            android:layout_gravity="right|top"
+            android:id="@+id/fram_delete_0"
+            android:layout_marginTop="@dimen/menu_equip_btn_size">
+
+            <ImageView
+                android:layout_width="@dimen/menu_equip_btn_size"
+                android:layout_height="@dimen/menu_equip_btn_size"
+                android:src="@drawable/btn_menu_delete"
+                android:layout_gravity="left|top"
+                android:id="@+id/img_delete_0"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Delete"
+                android:layout_gravity="center|bottom|right"
+              android:textSize="@dimen/menu_equip_font_size"
+                android:background="@drawable/text_bg"
+                android:padding="3dp" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="@dimen/menu_equip_btn_width"
+            android:layout_height="@dimen/menu_equip_btn_height"
+            android:layout_gravity="bottom"
+            android:id="@+id/fram_edit_0"
+            android:layout_marginLeft="@dimen/menu_equip_btn_width_margin">
+
+            <ImageView
+                android:layout_width="@dimen/menu_equip_btn_size"
+                android:layout_height="@dimen/menu_equip_btn_size"
+                android:src="@drawable/btn_menu_edit"
+                android:layout_gravity="right|top"
+                android:id="@+id/img_edit_0"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Edit"
+                android:layout_gravity="center|bottom|left"
+              android:textSize="@dimen/menu_equip_font_size"
+                android:background="@drawable/text_bg"
+                android:paddingLeft="5dp"
+                android:paddingTop="3dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="3dp" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="@dimen/menu_equip_btn_width"
+            android:layout_height="@dimen/menu_equip_btn_height"
+            android:layout_gravity="bottom|right"
+            android:id="@+id/fram_change_0"
+            android:layout_marginRight="@dimen/menu_equip_btn_width_margin">
+
+            <ImageView
+                android:layout_width="@dimen/menu_equip_btn_size"
+                android:layout_height="@dimen/menu_equip_btn_size"
+                android:src="@drawable/btn_menu_change"
+                android:layout_gravity="left|top"
+                android:id="@+id/img_change_0"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Change"
+                android:layout_gravity="center|bottom|right"
+              android:textSize="@dimen/menu_equip_font_size"
+                android:padding="3dp"
+                android:background="@drawable/text_bg" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="@dimen/menu_equip_width"
+        android:layout_height="@dimen/menu_equip_height"
+        android:id="@+id/gr_menu_top"
+        android:visibility="gone"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="@dimen/menu_equip_margin">
+
+        <FrameLayout
+            android:layout_width="@dimen/menu_equip_btn_width"
+            android:layout_height="@dimen/menu_equip_btn_height"
+            android:layout_gravity="bottom|left"
+            android:visibility="visible"
+            android:id="@+id/fram_view_1"
+            android:layout_marginBottom="@dimen/menu_equip_btn_size">
+
+            <ImageView
+                android:layout_width="@dimen/menu_equip_btn_size"
+                android:layout_height="@dimen/menu_equip_btn_size"
+                android:src="@drawable/btn_menu_view"
+                android:layout_gravity="bottom|right"
+                android:id="@+id/img_view_1"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="View"
+                android:layout_gravity="center|left|top"
+              android:textSize="@dimen/menu_equip_font_size"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/text_bg"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="@dimen/menu_equip_btn_width"
+            android:layout_height="@dimen/menu_equip_btn_height"
+            android:layout_gravity="bottom|right"
+            android:visibility="visible"
+            android:id="@+id/fram_delete_1"
+            android:layout_marginBottom="@dimen/menu_equip_btn_size">
+
+            <ImageView
+                android:layout_width="@dimen/menu_equip_btn_size"
+                android:layout_height="@dimen/menu_equip_btn_size"
+                android:src="@drawable/btn_menu_delete"
+                android:layout_gravity="bottom|left"
+                android:id="@+id/img_delete_1"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Delete"
+                android:layout_gravity="center|right|top"
+              android:textSize="@dimen/menu_equip_font_size"
+                android:padding="3dp"
+                android:background="@drawable/text_bg" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="@dimen/menu_equip_btn_width"
+            android:layout_height="@dimen/menu_equip_btn_height"
+            android:layout_gravity="top"
+            android:visibility="visible"
+            android:id="@+id/fram_edit_1"
+            android:layout_marginLeft="@dimen/menu_equip_btn_width_margin">
+
+            <ImageView
+                android:layout_width="@dimen/menu_equip_btn_size"
+                android:layout_height="@dimen/menu_equip_btn_size"
+                android:src="@drawable/btn_menu_edit"
+                android:layout_gravity="bottom|right"
+                android:id="@+id/img_edit_1"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Edit"
+                android:layout_gravity="center|left|top"
+              android:textSize="@dimen/menu_equip_font_size"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/text_bg"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="@dimen/menu_equip_btn_width"
+            android:layout_height="@dimen/menu_equip_btn_height"
+            android:layout_gravity="right|top"
+            android:id="@+id/fram_change_1"
+            android:layout_marginRight="@dimen/menu_equip_btn_width_margin">
+
+            <ImageView
+                android:layout_width="@dimen/menu_equip_btn_size"
+                android:layout_height="@dimen/menu_equip_btn_size"
+                android:src="@drawable/btn_menu_change"
+                android:layout_gravity="bottom|left"
+                android:scaleType="fitCenter"
+                android:id="@+id/img_change_1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Change"
+                android:layout_gravity="center|right|top"
+                android:textSize="@dimen/menu_equip_font_size"
+                android:padding="3dp"
+                android:background="@drawable/text_bg" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

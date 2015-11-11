@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="elements_kind_tbs">
+        [{"id":-1,"names_en":"none","name_vn":"none","creation_id":-1,"destruction_id":-1,"color":"#ffffff"},
+        {"id":0,"names_en":"metal","name_vn":"hệ kim","creation_id":1,"destruction_id":3,"color":"#f7e54e"},
+{"id":1,"names_en":"water","name_vn":"hệ thuỷ","creation_id":2,"destruction_id":4,"color":"#4e82f7"},
+{"id":2,"names_en":"wood","name_vn":"hệ mộc","creation_id":3,"destruction_id":0,"color":"#6ef74e"},
+{"id":3,"names_en":"fire","name_vn":"hệ hoả","creation_id":4,"destruction_id":1,"color":"#ff3a3a"},
+{"id":4,"names_en":"earth","name_vn":"hệ thổ","creation_id":0,"destruction_id":2,"color":"#7a7a7a"}]</string>
+    <string name="equipments_kind_tbs">
+    [
+{"id":-1,"names_en":"none","name_vn":"none","creation_1_id":-1,"creation_2_id":-1},
+{"id":0,"names_en":"weapons","name_vn":"vũ khí","creation_1_id":7,"creation_2_id":5},
+{"id":1,"names_en":"hat","name_vn":"nón","creation_1_id":7,"creation_2_id":5},
+{"id":2,"names_en":"glove","name_vn":"bao tay","creation_1_id":4,"creation_2_id":6},
+{"id":3,"names_en":"shirt","name_vn":"áo","creation_1_id":0,"creation_2_id":1},
+{"id":4,"names_en":"belt","name_vn":"đai lưng","creation_1_id":3,"creation_2_id":9},
+{"id":5,"names_en":"shoes","name_vn":"giầy","creation_1_id":8,"creation_2_id":2},
+{"id":6,"names_en":"rings down","name_vn":"nhẫn dưới","creation_1_id":3,"creation_2_id":9},
+{"id":7,"names_en":"ring up","name_vn":"nhẫn trên","creation_1_id":8,"creation_2_id":2},
+{"id":8,"names_en":"pearl","name_vn":"ngọc bội","creation_1_id":4,"creation_2_id":6},
+{"id":9,"names_en":"chain","name_vn":"dây chuyền","creation_1_id":0,"creation_2_id":1}]
+</string>
+    <string name="properties_kind_tbs">
+[{"id":-1,"name_vn":"none","equip_id":"-1","hide":false,"element_id":-1},
+{"id":0,"name_vn":"kháng tất cả","equip_id":"9","hide":false,"element_id":-1},
+{"id":1,"name_vn":"Sinh lực","equip_id":"","hide":false,"element_id":-1},
+{"id":2,"name_vn":"phục hồi sinh lực","equip_id":"","hide":false,"element_id":-1},
+{"id":3,"name_vn":"nội lực ","equip_id":"","hide":false,"element_id":-1},
+{"id":4,"name_vn":"phục hồi nội lực ","equip_id":"8","hide":false,"element_id":-1},
+{"id":5,"name_vn":"thể lực ","equip_id":"","hide":false,"element_id":-1},
+{"id":6,"name_vn":"phục hồi thể lực ","equip_id":"6,7,9","hide":false,"element_id":-1},
+{"id":7,"name_vn":"sức mạnh","equip_id":"6,7,8,9","hide":true,"element_id":0},
+{"id":8,"name_vn":"thân pháp","equip_id":"","hide":true,"element_id":3},
+{"id":9,"name_vn":"sinh khí","equip_id":"","hide":true,"element_id":1},
+{"id":10,"name_vn":"nội công","equip_id":"","hide":false,"element_id":-1},
+{"id":11,"name_vn":"kháng vật lý","equip_id":"1,2,3,4,5","hide":true,"element_id":3},
+{"id":12,"name_vn":"kháng độc","equip_id":"","hide":true,"element_id":0},
+{"id":13,"name_vn":"kháng hoả","equip_id":"","hide":true,"element_id":1},
+{"id":14,"name_vn":"kháng lôi","equip_id":"","hide":true,"element_id":2},
+{"id":15,"name_vn":"kháng băng","equip_id":"","hide":true,"element_id":4},
+{"id":16,"name_vn":"thời gian làm chậm","equip_id":"","hide":true,"element_id":3},
+{"id":17,"name_vn":"thời gian trúng độc","equip_id":"","hide":true,"element_id":4},
+{"id":18,"name_vn":"thời gian choáng","equip_id":"","hide":true,"element_id":1},
+{"id":19,"name_vn":"thời gian phục hồi","equip_id":"3","hide":false,"element_id":-1},
+{"id":20,"name_vn":"tốc độ di chuyển","equip_id":"5","hide":false,"element_id":-1},
+{"id":21,"name_vn":"tốc độ đánh - ngoại công","equip_id":"0","hide":false,"element_id":-1},
+{"id":22,"name_vn":"tốc độ đánh - nội công","equip_id":"","hide":false,"element_id":-1},
+{"id":23,"name_vn":"sát thương vật lý ngoại công điểm","equip_id":"0","hide":true,"element_id":0},
+{"id":24,"name_vn":"hoả sát - ngoại công","equip_id":"0","hide":true,"element_id":3},
+{"id":25,"name_vn":"băng sát - ngoại công","equip_id":"0","hide":true,"element_id":1},
+{"id":26,"name_vn":"lôi sát - ngoại công","equip_id":"0","hide":true,"element_id":4},
+{"id":27,"name_vn":"độc sát - ngoại công","equip_id":"0","hide":true,"element_id":2},
+{"id":28,"name_vn":"sát thương vật lý - ngoại công %","equip_id":"0","hide":false,"element_id":-1},
+{"id":29,"name_vn":"tốc độ đánh - nội công","equip_id":"","hide":false,"element_id":-1},
+{"id":30,"name_vn":"sát thương vật lý - nội công","equip_id":"","hide":true,"element_id":0},
+{"id":31,"name_vn":"hoả sát - nội công","equip_id":"","hide":true,"element_id":3},
+{"id":32,"name_vn":"băng sát - nội công","equip_id":"","hide":true,"element_id":1},
+{"id":33,"name_vn":"lôi sát - nội công","equip_id":"","hide":true,"element_id":4},
+{"id":34,"name_vn":"độc sát - nội công","equip_id":"","hide":true,"element_id":2},
+{"id":35,"name_vn":"tỉ lệ công kich chính xác","equip_id":"0","hide":false,"element_id":-1},
+{"id":36,"name_vn":"chuyển hoá sát thương thành nội lực","equip_id":"0","hide":true,"element_id":-1},
+{"id":37,"name_vn":"may mắn","equip_id":"6,7,8,9","hide":true,"element_id":-1},
+{"id":38,"name_vn":"phản đòn cận chiến","equip_id":"3","hide":false,"element_id":-1},
+{"id":39,"name_vn":"bỏ qua né tránh","equip_id":"0","hide":false,"element_id":-1}]
+</string>
+</resources>

@@ -1,0 +1,11 @@
+[{"id":-1,"name_en":"none","name_vn":"none","creation_1_id":-1,"creation_2_id":-1,"cls":0},
+{"id":0,"name_en":"weapons","name_vn":"Vũ khí","creation_1_id":9,"creation_2_id":3,"cls":0},
+{"id":1,"name_en":"hat","name_vn":"Đỉnh Mạo","creation_1_id":3,"creation_2_id":9,"cls":1},
+{"id":2,"name_en":"glove","name_vn":"Hộ uyển","creation_1_id":7,"creation_2_id":5,"cls":0},
+{"id":3,"name_en":"shirt","name_vn":"Y phục","creation_1_id":4,"creation_2_id":6,"cls":1},
+{"id":4,"name_en":"belt","name_vn":"Yên đái","creation_1_id":8,"creation_2_id":2,"cls":1},
+{"id":5,"name_en":"shoes","name_vn":"Hài","creation_1_id":1,"creation_2_id":0,"cls":1},
+{"id":6,"name_en":"rings down","name_vn":"Nhẫn dưới","creation_1_id":2,"creation_2_id":8,"cls":0},
+{"id":7,"name_en":"ring up","name_vn":"Nhẫn trên","creation_1_id":0,"creation_2_id":1,"cls":0},
+{"id":8,"name_en":"pearl","name_vn":"Ngọc bội","creation_1_id":5,"creation_2_id":7,"cls":1},
+{"id":9,"name_en":"chain","name_vn":"Hạng liên","creation_1_id":6,"creation_2_id":4,"cls":0}]

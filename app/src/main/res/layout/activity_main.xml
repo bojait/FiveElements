@@ -1,0 +1,130 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.inc.haitran.five_elements.views.HeaderView
+        android:id="@+id/gr_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/ocr_edit_horizontal_line"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/edit_element_kind"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="@dimen/edit_text_font_size"
+            android:layout_gravity="center_vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_element_kind"
+            android:orientation="horizontal"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            android:background="@drawable/set_btn"
+            android:onClick="onClick">
+
+            <TextView
+                android:id="@+id/txt_element_kind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/edit_margin_left"
+                android:textColor="@color/edit_text_default"
+                android:textSize="@dimen/edit_text_font_size"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/edit_properties_default" />
+
+            <ImageView
+                android:layout_width="@dimen/edit_kind_of_width"
+                android:layout_height="@dimen/edit_kind_of_width"
+                android:src="@drawable/btn_kinof"
+                android:padding="2dp">
+            </ImageView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <com.inc.haitran.five_elements.views.EquipsView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/view_draw_height"
+                    android:id="@+id/equip_view"
+                    android:layout_gravity="center_vertical"
+                    android:focusableInTouchMode="true" />
+
+                <com.inc.haitran.five_elements.views.MenuEquipView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/menu_equip"
+                    android:layout_gravity="center_horizontal|top" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:background="@color/pre_content1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/main_sum_propertis"
+                        android:id="@+id/textView2"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kích tất cả"
+                        android:id="@+id/chAll"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/listPro"></ListView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="line_height">0.3dp</dimen>
+    <dimen name="line_size_2px">2px</dimen>
+
+    <!-- alert view  -->
+    <dimen name="alert_font_size_button">25sp</dimen>
+    <dimen name="alert_font_size_content">20.25sp</dimen>
+    <dimen name="alert_font_size_content_50">16.66sp</dimen>
+    <dimen name="alert_content_margin">60dp</dimen>
+    <!-- main -->
+    <dimen name="view_draw_height">450dp</dimen>
+
+    <dimen name="view_draw_radius">40px</dimen>
+    <dimen name="view_font">15sp</dimen>
+
+    <dimen name="header_height">48dp</dimen>
+    <dimen name="header_font_size_btn">20.25sp</dimen>
+    <dimen name="header_font_size_title">20.25sp</dimen>
+    <!--edit screen -->
+    <dimen name="edit_margin">5dp</dimen>
+    <dimen name="edit_margin_top">8dp</dimen>
+    <dimen name="edit_text_font_size">15sp</dimen>
+    <dimen name="edit_margin_left">5dp</dimen>
+    <dimen name="edit_txt_height">34dp</dimen>
+    <dimen name="edit_btn_height">24dp</dimen>
+    <dimen name="edit_txt_padd">10dp</dimen>
+    <dimen name="edit_txt_size">15.75sp</dimen>
+    <dimen name="edit_title_size">15.75sp</dimen>
+    <dimen name="edit_title_size_kinof">20.25sp</dimen>
+    <dimen name="edit_dis_content">1dp</dimen>
+    <dimen name="edit_margin_left_2">35dp</dimen>
+    <dimen name="edit_margin_top_item">20dp</dimen>
+    <dimen name="edit_list_margin_left">9dp</dimen>
+    <dimen name="edit_list_margin_right">9dp</dimen>
+    <dimen name="edit_pic_size">100dp</dimen>
+    <dimen name="edit_kind_of_width">30dp</dimen>
+    <dimen name="edit_kind_of_size">29dp</dimen>
+
+    <!-- menu equip -->
+    <dimen name="menu_equip_width">300dp</dimen>
+    <dimen name="menu_equip_height">170dp</dimen>
+    <dimen name="menu_equip_btn_width">90dp</dimen>
+    <dimen name="menu_equip_btn_height">60dp</dimen>
+    <dimen name="menu_equip_btn_size">50dp</dimen>
+    <dimen name="menu_equip_btn_width_margin">45dp</dimen>
+    <dimen name="menu_equip_margin">5dp</dimen>
+    <dimen name="menu_equip_font_size">15dp</dimen>
+    <!-- main activity -->
+    <dimen name="main_height_pro">50dp</dimen>
+
+</resources>
