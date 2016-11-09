@@ -22,4 +22,5 @@
     <string name="edit_equip_type">Loại trang bị : </string>
     <string name="edit_equip_type_default">Chọn trang bị </string>
     <string name="edit_properties_default">Chọn thuộc tính ...</string>
+    <string name="edit_properties">Chọn thuộc tính ...step3</string>
 </resources>
